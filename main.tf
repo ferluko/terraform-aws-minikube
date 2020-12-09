@@ -1,7 +1,5 @@
 terraform {
   required_version = "~> 0.13.2"
-
-  backend "http" {}
   required_providers {
     sshcommand = {
       source  = "invidian/sshcommand"
